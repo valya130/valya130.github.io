@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="САЙТ.css" />
+    <link rel="script" href="САЙТ.js"/>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Валентин</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">Обо мне</a></li>
+            <li><a href="#skills" class="nav-link">Навыки</a></li>
+            <li><a href="#project" class="nav-link">Проекты</a></li>
+            <li><a href="#contact" class="nav-link">Контакты</a></li>
+
+        </ul>
+
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+
+    </nav>
+
+
+
+
+
+
+    <!-- Person Section -->
+    <section class="person" id="about">
+
+        <img src="Программирование/HtmlPage/images/girl.png"
+             alt="картинка"
+             loading="lazy"
+             class="person-img" />
+
+        <div class="bio" animate_animated animate_shakeX>
+
+            <h2 class="bio-title"> Обо мне</h2>
+            <p class="bio-text">
+                Lorem
+            </p>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- More about -->
+    <section class="more-about">
+
+        <h2>Дополнительная информация обо мне</h2>
+        <p> Another important thing here is learning to do practical things. Their metal and wood shops are like small factories, and we are taught to drive as well.</p>
+        <p> I joined gymnastics and football clubs here. A lot of girls play football in this school. I had my first practice yesterday, and I feel tired today.</p>
+        <p> This morning I forgot about it and got to school ten minutes late, so the teacher put a note into my record-book. I was really angry!</p>
+
+    </section>
+
+
+
+
+
+
+    <!-- Skills section -->
+    <sectoin class="skills" id="#skills">
+
+        <h3>Мои навыки</h3>
+        <div class="skills-wrapper">
+
+            <img src="HtmlPage/images/girl.png"
+                 alt="иконка"
+                 loading="lazy"
+                 class="icon icon-card" />
+
+            <img src="HtmlPage/images/girl.png"
+                 alt="иконка"
+                 loading="lazy"
+                 class="icon icon-card" />
+
+            <img src="HtmlPage/images/girl.png"
+                 alt="иконка"
+                 loading="lazy"
+                 class="icon icon-card" />
+
+        </div>
+
+    </sectoin>
+
+
+
+
+
+
+    <!--Projects sectoin-->
+    <section class="project" id="#projects">
+
+        <h3 class="projects-title">Несколько из моих проектов</h3>
+
+        <div class="projects-container">
+
+            <div class="projects-container project-card">
+
+                <img src="HtmlPage/images/calc.png"
+                     alt="проект-калькулятор"
+                     loading="lazy"
+                     class="project-pic" />
+
+
+                <h4 class="project-title">Калькулятор</h4>
+
+                <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                <a href="#" target="_blank" class="project-link">Узнать больше</a>
+
+            </div>
+
+            <div class="projects-container project-card">
+
+                <img src="HtmlPage/images/calc.png"
+                     alt="проект-калькулятор"
+                     loading="lazy"
+                     class="project-pic" />
+
+
+                <h4 class="project-title">Калькулятор</h4>
+
+                <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+                    <a href="#" target="_blank" class="project-link">Узнать больше</a>
+
+</div>
+
+            <div class="projects-container project-card">
+
+                <img src="HtmlPage/images/calc.png"
+                     alt="проект-калькулятор"
+                     loading="lazy"
+                     class="project-pic" />
+
+
+                <h4 class="project-title">Калькулятор</h4>
+
+                <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+
+                <a href="#" target="_blank" class="project-link">Узнать больше</a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!--Contact section-->
+    <section class="contact" id="contact">
+
+        <h4>Связаться со мной</h4>
+
+        <div class="contact-form-container">
+
+            <div class="contact-form">
+
+                <form action="#" method="post">
+
+                    <div class="form-control">
+
+                        <label for="name">Name</label>
+
+                        <input type="text"
+                               id="name"
+                               name="send0name"
+                               placeholder="Введите свое имя"
+                               class="input-field"
+                               required />
+
+
+                    </div>
+
+
+
+                    <div class="form-control">
+
+                        <label for="email">Email</label>
+
+                        <input type="text"
+                               id="name"
+                               name="send0name"
+                               placeholder="Введите свою почту"
+                               class="input-field"
+                               required />
+
+
+                    </div>
+
+
+
+                    <div class="form-control">
+
+                        <label for="message">Message</label>
+
+                        <textarea id="message"
+                                  name="message"
+                                  cols="60"
+                                  rows="10"
+                                  placeholder="Введите свое сообщение"
+                                  class="input-field"
+                                  required></textarea>
+
+
+                    </div>
+
+
+
+                    <div class="form-control">
+
+                        <input type="submit"
+                               value="Отправить"
+                               id="submit-btn"
+                               class="submit-btn">
+
+
+
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!--Social accounts-->
+    <div class="socials">
+
+        <a href="#" target="_blank">
+
+            <img src="assets/icons/icons8-twitter-cirled.gif"
+                 alt="twitter"
+                 loading="lazy"
+                 class="socicon"/>
+
+        </a>
+
+        <a href="#" target="_blank">
+
+            <img src="assets/icons/icons8-instargam-cirled.gif"
+                 alt="instargam"
+                 loading="lazy"
+                 class="socicon"/>
+
+        </a>
+
+        <a href="#" target="_blank">
+
+            <img src="assets/icons/icons8-telegram-cirled.gif"
+                 alt="telegram"
+                 loading="lazy"
+                 class="socicon"/>
+
+        </a>
+
+        <a href="#" target="_blank">
+
+            <img src="assets/icons/icons8-linkedin-cirled.gif"
+                 alt="linkedin"
+                 loading="lazy"
+                 class="socicon"/>
+
+        </a>
+
+    </div>
+
+
+
+
+    <!--Scroll to top-->
+    <i class="scroll-up" id="scroll-up">
+
+        <img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt=""/>
+
+    </i>
+
+
+
+    <!--Footer section-->
+    <footer>
+
+        <p class="copy">
+                © Copyright 2022.
+        </p>
+
+        <p class="copy">
+
+            <a href="https://steamcommunity.com/profiles/76561198252774184/ " target="_blank">Валентином Петровым</a>
+
+        </p>
+
+    </footer>
+
+
+
+
+</body>
+</html>
